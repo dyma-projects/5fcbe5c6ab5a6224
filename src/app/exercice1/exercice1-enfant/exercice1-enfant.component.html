@@ -2,8 +2,9 @@
 <span> valeur du compteur : </span>
 <br />
 <br />
-<button> + </button>
+<button (click)="onActionCompteur(1)"> + </button>
 <br />
 <br />
-<button> - </button>
+<button (click)="onActionCompteur(-1)"> - </button>
 <br>
+<span> compteur : {{ compteur }}</span>

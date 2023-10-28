@@ -11,4 +11,8 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  public onActionCompteur(i:number){
+    this.result += i;
+  }
 }
